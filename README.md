@@ -2,9 +2,18 @@
 
 # Cloud Integrations
 
-This repository contains an overview of the various open source projects that CrowdStrike has created, ranging from integrations that assist with cloud partner-specific integrations, Falcon sensor deployment on both virtual machines, containers, and kubernetes workloads, and other projects that help customers and partners extend the CrowdStrike platform.
+This repository provides an overview of the various open-source projects created by the CrowdStrike Cloud Integrations Solution Architect team. These projects range from integrations that facilitate cloud partner-specific solutions to Falcon sensor deployment across virtual machines, containers, and Kubernetes workloads, as well as other tools designed to help customers and partners extend the capabilities of the CrowdStrike platform.
 
-## Cloud Partner Integrations
+## Table of Contents
+
+- [Cloud partner integrations](#cloud-partner-integrations)
+- [Falcon sensor deployment](#falcon-sensor-deployment)
+  - [Configuration Management tools](#configuration-management-tools)
+  - [Scripts](#scripts)
+  - [Kubernetes and Containers](#kubernetes-and-containers)
+- [Extending the Falcon Platform](#extending-the-falcon-platform)
+
+## Cloud partner integrations
 
 The table below outlines the primary repositories that consolidate various integrations for each cloud partner. To learn more about the specific integrations available for each partner, please visit their individual repositories.
 
@@ -14,6 +23,20 @@ The table below outlines the primary repositories that consolidate various integ
 | [Azure](https://github.com/CrowdStrike/Cloud-Azure) | This repository provides an overview of our integrations with Azure, including cloud-native sensor automation via VM Extensions and VM Applications, and Azure Blob storage protection. It also features seamless integrations with Microsoft Sentinel, enabling advanced threat detection and response capabilities within your Azure environment.|
 | [Google Cloud](https://github.com/CrowdStrike/Cloud-GCP) | This repository provides a detailed overview of our integrations with Google Cloud, including cloud-native sensor deployment through VM Manager OS Policy, Cloud Storage protection, and integrations with Chronicle.|
 
-## Falcon Sensor Deployment
+## Falcon sensor deployment
+
+The sections below provide an overview of the configuration management tools, scripts, and other projects that facilitate Falcon sensor deployment across virtual machines, containers, and Kubernetes workloads.
+
+### Configuration Management tools
+
+| Tool | Description |
+| ---- | ----------- |
+| [Ansible](https://github.com/CrowdStrike/ansible_collection_falcon) | Our certified Ansible collection automates Falcon sensor deployment across cloud and on-premises environments. It uses playbooks to streamline the process, ensuring consistent and reliable deployments with minimal manual effort. |
+| [Chef](https://github.com/CrowdStrike/chef-falcon) | Our Chef Cookbook allows you to automate the deployment of the Falcon sensor by defining policies as code, ensuring consistent and scalable installations across your infrastructure. |
+| [Puppet](https://github.com/CrowdStrike/chef-falcon) | Our Puppet module allows you to automate the deployment of the Falcon sensor by defining policies as code, ensuring consistent and scalable installations across your infrastructure. |
+
+### Scripts
+
+### Kubernetes and Containers
 
 ## Extending the Falcon Platform
