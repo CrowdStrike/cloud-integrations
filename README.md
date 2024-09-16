@@ -6,15 +6,15 @@ This repository provides an overview of the various open-source projects created
 
 ## Table of Contents
 
-- [Cloud partner integrations](#cloud-partner-integrations)
-- [Falcon sensor deployment](#falcon-sensor-deployment)
+- [Cloud Partner Integrations](#cloud-partner-integrations)
+- [Falcon Sensor Deployment Strategies](#falcon-sensor-deployment-strategies)
   - [Configuration Management tools](#configuration-management-tools)
   - [Integrations](#integrations)
-  - [Scripts](#scripts)
+  - [Shell Scripts](#shell-scripts)
   - [Kubernetes and Containers](#kubernetes-and-containers)
 - [Extending the Falcon Platform](#extending-the-falcon-platform)
 
-## Cloud partner integrations
+## Cloud Partner Integrations
 
 The table below outlines the primary repositories that consolidate various integrations for each cloud partner. To learn more about the specific integrations available for each partner, please visit their individual repositories.
 
@@ -24,7 +24,7 @@ The table below outlines the primary repositories that consolidate various integ
 | [Azure](https://github.com/CrowdStrike/Cloud-Azure) | This repository provides an overview of our integrations with Azure, including cloud-native sensor automation via VM Extensions and VM Applications, and Azure Blob storage protection. It also features seamless integrations with Microsoft Sentinel, enabling advanced threat detection and response capabilities within your Azure environment.|
 | [Google Cloud](https://github.com/CrowdStrike/Cloud-GCP) | This repository provides an overview of our integrations with Google Cloud, including cloud-native sensor deployment through VM Manager OS Policy, Cloud Storage protection, and integrations with Chronicle.|
 
-## Falcon sensor deployment
+## Falcon Sensor Deployment Strategies
 
 The sections below provide an overview of the configuration management tools, scripts, and other projects that facilitate Falcon sensor deployment across virtual machines, containers, and Kubernetes workloads.
 
@@ -32,7 +32,7 @@ The sections below provide an overview of the configuration management tools, sc
 
 | Tool | Description |
 | ---- | ----------- |
-| [Ansible](https://github.com/CrowdStrike/ansible_collection_falcon) | Our certified Ansible collection automates Falcon sensor deployment across cloud and on-premises environments. It uses playbooks to streamline the process, ensuring consistent and reliable deployments with minimal manual effort. |
+| [Ansible](https://github.com/CrowdStrike/ansible_collection_falcon) | Our certified Ansible collection automates Falcon sensor deployment across cloud and on-premises environments. It uses roles to streamline the process, ensuring consistent and reliable deployments with minimal manual effort. |
 | [Chef](https://github.com/CrowdStrike/chef-falcon) | Our Chef Cookbook allows you to automate the deployment of the Falcon sensor by defining policies as code, ensuring consistent and scalable installations across your infrastructure.  |
 | [Puppet](https://github.com/CrowdStrike/puppet-falcon) | Our Puppet module allows you to automate the deployment of the Falcon sensor by defining policies as code, ensuring consistent and scalable installations across your infrastructure. |
 
@@ -42,11 +42,11 @@ The sections below provide an overview of the configuration management tools, sc
 | ---- | ----------- |
 | [Falcon Bosh Tile for Tanzu TAS](https://github.com/CrowdStrike/falcon-boshrelease) | This project provides a BOSH release for deploying the CrowdStrike Falcon sensor on VMWare Tanzu Application Service (TAS) to ensure security across your cloud infrastructure.|
 
-### Scripts
+### Shell Scripts
 
 | Script | Description |
 | ------ | ----------- |
-| [Falcon Scripts](https://github.com/CrowdStrike/falcon-scripts) | A collection of scripts designed to facilitate the deployment of the Falcon sensor, work with Falcon Container Sensor images, and assist with migration between Falcon cloud tenants. |
+| [Falcon Scripts](https://github.com/CrowdStrike/falcon-scripts) | A collection of shell scripts designed to facilitate the deployment of the Falcon sensor, work with Falcon Container Sensor images, and assist with migration between Falcon cloud tenants. |
 
 ### Kubernetes and Containers
 
