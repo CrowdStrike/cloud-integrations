@@ -41,6 +41,7 @@ The sections below provide an overview of the configuration management tools, sc
 | Tool | Description |
 | ---- | ----------- |
 | [Falcon Bosh Tile for Tanzu TAS](https://github.com/CrowdStrike/falcon-boshrelease) | This project provides a BOSH release for deploying the CrowdStrike Falcon sensor on VMWare Tanzu Application Service (TAS) to ensure security across your cloud infrastructure.|
+| [MSI Installer](https://github.com/crowdstrike/msi-installer) | This project allows you to create an MSI to deploy CrowdStrike Falcon Sensors using native Windows tooling. |
 
 ### Shell Scripts
 
