@@ -10,7 +10,7 @@ This repository provides an overview of the various open-source projects created
 - [Falcon Sensor Deployment Strategies](#falcon-sensor-deployment-strategies)
   - [Configuration Management tools](#configuration-management-tools)
   - [Integrations](#integrations)
-  - [Shell Scripts](#shell-scripts)
+  - [Scripts](#scripts)
   - [Kubernetes and Containers](#kubernetes-and-containers)
 - [Extending the Falcon Platform](#extending-the-falcon-platform)
 
@@ -42,11 +42,12 @@ The sections below provide an overview of the configuration management tools, sc
 | ---- | ----------- |
 | [Falcon Bosh Tile for Tanzu TAS](https://github.com/CrowdStrike/falcon-boshrelease) | This project provides a BOSH release for deploying the CrowdStrike Falcon sensor on VMWare Tanzu Application Service (TAS) to ensure security across your cloud infrastructure.|
 
-### Shell Scripts
+### Scripts
 
 | Script | Description |
 | ------ | ----------- |
 | [Falcon Scripts](https://github.com/CrowdStrike/falcon-scripts) | A collection of shell scripts designed to facilitate the deployment of the Falcon sensor, work with Falcon Container Sensor images, and assist with migration between Falcon cloud tenants. |
+| [Falcon Installer](https://github.com/CrowdStrike/falcon-installer) | A single compiled, API-driven Golang binary that simplifies installation of the Falcon sensor across different operating systems. |
 
 ### Kubernetes and Containers
 
@@ -65,4 +66,3 @@ The sections below provide an overview of the configuration management tools, sc
 | [Falcon Ansible Collection](https://github.com/CrowdStrike/ansible_collection_falcon) | The CrowdStrike Falcon Ansible Collection allows you to interact with the Falcon platform beyond sensor deployments. Take advantage of dynamic inventories to combat shadow IT or use the Event-Driven Ansible (EDA) eventstream source to react to near-real time security relevent events in your environment. |
 | [Falcon Integration Gateway (FIG)](https://github.com/CrowdStrike/falcon-integration-gateway) | The Falcon Integration Gateway (FIG) is an open-source project that acts as a bridge between Falcon and other security tools by forwarding threat detection findings and audit events from the CrowdStrike Falcon EventStreams API to the backend of your choice. |
 | [FCS CLI GitHub Action](https://github.com/marketplace/actions/crowdstrike-fcs-cli-github-action) | This GitHub Action enables you to run the CrowdStrike FCS CLI tool directly in your CI/CD pipeline, supporting the scanning of Infrastructure as Code (IaC) for misconfigurations and security vulnerabilities. |
-| [Container Image Scan GitHub Action](https://github.com/marketplace/actions/crowdstrike-container-image-scan) | This GitHub Action allows you to scan container images for security vulnerabilities using the CrowdStrike Falcon platform directly within your CI/CD pipeline. |
